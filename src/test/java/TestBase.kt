@@ -1,5 +1,4 @@
-package com.selenium.kotlin
-
+import com.selenium.kotlin.utilities.Utils
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.testng.annotations.AfterTest
@@ -9,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 abstract class TestBase {
 
-    lateinit var driver: WebDriver private set
+    lateinit var driver: WebDriver
 
     @BeforeTest
     fun setup() {

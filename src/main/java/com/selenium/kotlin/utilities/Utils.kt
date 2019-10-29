@@ -1,4 +1,4 @@
-package com.selenium.kotlin
+package com.selenium.kotlin.utilities
 
 import java.io.FileInputStream
 import java.io.IOException

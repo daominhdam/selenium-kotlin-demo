@@ -1,4 +1,4 @@
-package com.selenium.kotlin
+package com.selenium.kotlin.pageobjects
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement

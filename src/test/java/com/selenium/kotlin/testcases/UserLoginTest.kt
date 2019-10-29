@@ -1,5 +1,9 @@
-package com.selenium.kotlin
+package com.selenium.kotlin.testcases
 
+import TestBase
+import com.selenium.kotlin.pageobjects.LoginPage
+import com.selenium.kotlin.pageobjects.SecurePage
+import com.selenium.kotlin.utilities.Utils
 import org.testng.Assert
 import org.testng.annotations.Test
 
